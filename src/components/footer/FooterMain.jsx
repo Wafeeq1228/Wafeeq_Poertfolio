@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 
 const FooterMain = () => {
+  const currentYear = new Date().getFullYear();
   const footerLinks = [
     {
       name: "About Me",
@@ -44,7 +45,7 @@ const FooterMain = () => {
         </ul>
       </div>
       <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
-        © 2024 Abdelrahman | All Rights Reserved.
+        © {currentYear} WafeeqAliShah | All Rights Reserved.
       </p>
     </div>
   );
